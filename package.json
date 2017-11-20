@@ -2,10 +2,11 @@
     "name": "iview-snippets",
     "displayName": "iview-snippets",
     "description": "a iview ui snippets",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "publisher": "boseny",
+    "icon": "image/iview.png",
     "engines": {
-        "vscode": "^1.18.0"
+        "vscode": "^1.10.0"
     },
     "categories": [
         "Other"
