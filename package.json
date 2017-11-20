@@ -1,0 +1,61 @@
+{
+    "name": "iview-snippets",
+    "displayName": "iview-snippets",
+    "description": "a iview ui snippets",
+    "version": "0.0.1",
+    "publisher": "boseny",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "languages": [{
+            "id": "vue",
+            "extensions": [
+                ".vue"
+            ],
+            "configuration": "./conf/configuration.json"
+        }],
+        "grammars": [{
+            "language": "vue",
+            "scopeName": "text.html.vue",
+            "path": "./syntaxes/vue.tmLanguage.json"
+        }],
+        "snippets": [{
+                "language": "vue",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/iview.json"
+            }
+        ],
+        "commands": [
+
+        ],
+        "menus": {
+
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}

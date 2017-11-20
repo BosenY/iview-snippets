@@ -1,0 +1,9 @@
+{
+    "function init": {
+        "prefix": "function",
+        "body": [
+            "function ${1}() {\n\t${2}\n}"
+        ],
+        "description": "generate functions"
+    }
+}
