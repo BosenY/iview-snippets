@@ -2,34 +2,50 @@
     "name": "iview-snippets",
     "displayName": "iview-snippets",
     "description": "a iview ui snippets",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "boseny",
+    "license": "MIT",
     "icon": "image/iview.png",
     "engines": {
         "vscode": "^1.10.0"
     },
     "categories": [
-        "Other"
+        "Languages",
+        "Snippets"
     ],
-    "activationEvents": [
-        "onCommand:extension.sayHello"
-    ],
-    "main": "./extension",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/BosenY/iview-snippets"
+	},
+	"bugs": {
+		"url": "https://github.com/BosenY/iview-snippets/issues",
+		"email": "a707328818@outlook.com"
+	},
     "contributes": {
         "languages": [{
             "id": "vue",
+            "aliases": [
+                "Vue",
+                "vue"
+            ],
             "extensions": [
                 ".vue"
             ],
             "configuration": "./conf/configuration.json"
-        }],
+        },{
+            "id": "vue-html",
+            "aliases": [
+              "Vue-html"
+            ],
+            "configuration": "./syntaxes/vue-html-language-configuration.json"
+          }],
         "grammars": [{
             "language": "vue",
             "scopeName": "text.html.vue",
-            "path": "./syntaxes/vue.tmLanguage.json"
+            "path": "./syntaxes/vue.tmLanguage"
         }],
         "snippets": [{
-                "language": "vue",
+                "language": "javascript",
                 "path": "./snippets/html.json"
             },
             {
@@ -38,6 +54,14 @@
             },
             {
                 "language": "vue",
+                "path": "./snippets/iview.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/iview.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/iview.json"
             }
         ],

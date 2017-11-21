@@ -1,76 +1,76 @@
 {
     "ivew row": {
-        "prefix": "iview-Row",
+        "prefix": "iRow",
         "body": [
             "<Row>\n\t$1\n</Row>"
         ],
         "description": "iview row"
     },
     "ivew col": {
-        "prefix": "iview-Col",
+        "prefix": "iCol",
         "body": [
             "<Col span=\"$1\">\n\t$2\n</Col>"
         ],
         "description": "iview span"
     },
     "ivew button": {
-        "prefix": "iview-Button",
+        "prefix": "iButton",
         "body": [
             "<Button type=\"${1:primary}\">$2</Button>"
         ],
         "description": "iview button"
     },
     "ivew input": {
-        "prefix": "iview-Input",
+        "prefix": "iInput",
         "body": [
             "<Input v-model=\"${1}\" placeholder=\"${2}\"></Input>"
         ],
         "description": "iview input"
     },
     "ivew input number": {
-        "prefix": "iview-Inputnumber",
+        "prefix": "iInputnumber",
         "body": [
             "<Input-number :max=\"${1:10}\" :min=\"${2:1}\" v-model=\"${3:model}\"></Input-number>"
         ],
         "description": "iview input number"
     },
     "ivew table": {
-        "prefix": "iview-Table",
+        "prefix": "iTable",
         "body": [
             "<Table :columns=\"${1:column}\" :data=\"${2:data}\"></Table>"
         ],
         "description": "iview table"
     },
     "ivew select": {
-        "prefix": "iview-Select",
+        "prefix": "iSelect",
         "body": [
             "<Select v-model=\"${1:model}\">\n\t<Option v-for=\"${2:item} in ${3:list}\" :value=\"${4:value}\" :key=\"item\">${5}</Option>\n</Select>"
         ],
         "description": "iview select"
     },
     "ivew datetime picker": {
-        "prefix": "iview-Datepicker",
+        "prefix": "iDatepicker",
         "body": [
             "<Date-picker type=\"datetime\" format=\"yyyy/MM/dd HH:mm\" placeholder=\"选择日期和时间\"></Date-picker>"
         ],
         "description": "iview datetime picker"
     },
     "ivew upload": {
-        "prefix": "iview-Upload",
+        "prefix": "iUpload",
         "body": [
             "<Upload action=\"${1}\">\n\t<Button type=\"ghost\" icon=\"ios-cloud-upload-outline\">上传文件</Button>\n</Upload>"
         ],
         "description": "iview upload"
     },
     "ivew message": {
-        "prefix": "iview-Message",
+        "prefix": "iMessage",
         "body": [
            "this.$$Message.info('${1}');"
         ],
         "description": "iview message"
     },
     "iview notice": {
-        "prefix": "iview-Notice",
+        "prefix": "iNotice",
         "body": [
             "this.$$Notice.open({",
                 "\ttitle: '',",
@@ -80,7 +80,7 @@
         "description": "iview notice"
     },
     "iview form": {
-        "prefix": "iview-Form",
+        "prefix": "iForm",
         "body": [
             "<Form ref=\"${1}\" :model=\"${2}\" :rules=\"${3}\" inline>",
             "\t<FormItem label=\"${4}\">",
@@ -91,14 +91,14 @@
         "description": "iview form"
     },
     "iview radio": {
-        "prefix": "iview-Radio",
+        "prefix": "iRadio",
         "body": [
             "<Radio v-model=\"${1}\">${2}</Radio>"
         ],
         "description": "iview radio"
     },
     "iview check-box": {
-        "prefix": "iview-CheckBox",
+        "prefix": "iCheckBox",
         "body": [
             "<Checkbox v-model=\"${1}\">${2}</Checkbox>"
         ],
