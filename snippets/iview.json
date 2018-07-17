@@ -13,12 +13,21 @@
         ],
         "description": "iview span"
     },
+    "ivew icon": {
+        "prefix": "iIcon",
+        "body": [
+            "<Icon type=\"$1\" />"
+        ],
+        "description": "iview icon"
+    },
     "ivew card": {
         "prefix": "iCard",
         "body": [
-            "<Card>\n\t<p slot=\"${1:title}\">$2</p>\n\t</Card>"
+            "<Card>",
+            "\t<p slot=\"title\">$1</p>",
+            "</Card>"
         ],
-        "description": "iview button"
+        "description": "iview card"
     },
     "ivew button": {
         "prefix": "iButton",
@@ -26,6 +35,13 @@
             "<Button type=\"${1:primary}\">$2</Button>"
         ],
         "description": "iview button"
+    },
+    "ivew buttongroup": {
+        "prefix": "iButtonGroup",
+        "body": [
+            "<ButtonGroup><Button>Cancel</Button>\n<Button type=\"${1:primary}\">$2</Button></ButtonGroup>"
+        ],
+        "description": "iview buttongroup"
     },
     "ivew input": {
         "prefix": "iInput",
@@ -97,6 +113,18 @@
         ],
         "description": "iview form"
     },
+    "iview model": {
+        "prefix": "iModal",
+        "body": [
+            "<Modal",
+            "\tv-model=\"${1}\"",
+            "\ttitle=\"${2}\"",
+            "\t>",
+            "\t${3}",
+            "</Modal>"
+        ],
+        "description": "iview modal"
+    },
     "iview radio": {
         "prefix": "iRadio",
         "body": [
@@ -104,12 +132,32 @@
         ],
         "description": "iview radio"
     },
+    "iview radiogroup": {
+        "prefix": "iRadioGroup",
+        "body": [
+            "<RadioGroup v-model=\"${1}\">",
+            "\t<Radio label=\"${2}\"></Radio>",
+            "\t<Radio label=\"${3}\"></Radio>",
+            "</RadioGroup>"
+        ],
+        "description": "iview radiogroup"
+    },
     "iview check-box": {
         "prefix": "iCheckBox",
         "body": [
             "<Checkbox v-model=\"${1}\">${2}</Checkbox>"
         ],
         "description": "iview check-box"
+    },
+    "iview checkboxgroup": {
+        "prefix": "iCheckboxGroup",
+        "body": [
+            "<CheckboxGroup v-model=\"${1}\">",
+            "\t<Checkbox label=\"${2}\"></Checkbox>",
+            "\t<Checkbox label=\"${3}\"></Checkbox>",
+            "</CheckboxGroup>"
+        ],
+        "description": "iview checkboxgroup"
     }
 
 }
