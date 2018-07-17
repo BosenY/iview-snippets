@@ -11,6 +11,7 @@
 | iview-template | `a iview layout` |
 |     iRow     | `<Row></Row>`                              |
 |     iCol     | `<Col span=""></Col>`                      |
+|     iCard     | `<Card><p slot="title"></p></Card>`       |
 |   iButton    | `<Button type="primary"></Button>`         |
 |    iInput    | `<Input v-model="" placeholder=""></Input>` |
 | iInputnumber | `<Input-number :max="10" :min="1" v-model="model"></Input-number>` |
