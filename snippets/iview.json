@@ -13,6 +13,13 @@
         ],
         "description": "iview span"
     },
+    "ivew card": {
+        "prefix": "iCard",
+        "body": [
+            "<Card>\n\t<p slot=\"${1:title}\">$2</p>\n\t</Card>"
+        ],
+        "description": "iview button"
+    },
     "ivew button": {
         "prefix": "iButton",
         "body": [
