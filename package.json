@@ -1,9 +1,9 @@
 {
     "name": "iview-snippets",
     "displayName": "iview-snippets",
-    "description": "a iview ui snippets",
-    "version": "0.0.5",
-    "publisher": "boseny",
+    "description": "Visual Studio Code extension for iview snippets",
+    "version": "0.0.6",
+    "publisher": "hinet",
     "license": "MIT",
     "icon": "image/iview.png",
     "engines": {
@@ -15,11 +15,11 @@
     ],
     "repository": {
 		"type": "git",
-		"url": "https://github.com/BosenY/iview-snippets"
+		"url": "https://github.com/hinet/iview-snippets"
 	},
 	"bugs": {
-		"url": "https://github.com/BosenY/iview-snippets/issues",
-		"email": "a707328818@outlook.com"
+		"url": "https://github.com/hinet/iview-snippets/issues",
+		"email": "hinet@live.cn"
 	},
     "contributes": {
         "languages": [{
