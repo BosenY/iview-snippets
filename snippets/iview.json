@@ -158,6 +158,14 @@
             "</CheckboxGroup>"
         ],
         "description": "iview checkboxgroup"
+    },
+    "iview scroll": {
+        "prefix": "iScroll",
+        "body": [
+            "<Scroll :on-reach-top=\"${0}\" :on-reach-bottom=\"${1}\">",
+            "</Scroll>"
+        ],
+        "description": "iview scroll"
     }
 
 }
