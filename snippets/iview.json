@@ -152,12 +152,43 @@
     "iview checkboxgroup": {
         "prefix": "iCheckboxGroup",
         "body": [
-            "<CheckboxGroup v-model=\"${1}\">",
+            "<CheckboxGroup v-model=\"${0}\">",
+            "\t<Checkbox label=\"${1}\"></Checkbox>",
             "\t<Checkbox label=\"${2}\"></Checkbox>",
-            "\t<Checkbox label=\"${3}\"></Checkbox>",
             "</CheckboxGroup>"
         ],
         "description": "iview checkboxgroup"
+    },
+    "iview tabs": {
+        "prefix": "iTabs",
+        "body": [
+            "<Tabs>",
+            "<TabPane label=\"${0}\" name=\"${1}\">\"${2}\"</TabPane>",
+            "</Tabs>"
+        ],
+        "description": "iview tabs"
+    },
+    "iview page": {
+        "prefix": "iPage",
+        "body": [
+            "<Page :total=\"${0}\" :page-size=\"${1}\" @on-change=\"${2}\" size=\"small\"></Page>"
+        ],
+        "description": "iview page"
+    },
+    "iview menu": {
+        "prefix": "iMenu",
+        "body": [
+            "<Menu mode=\"horizontal\" active-name=\"${0}\">",
+            "\t<MenuItem name=\"1\">menu1</MenuItem>",
+            "\t<MenuItem name=\"2\">menu2</MenuItem>",
+            "\t<Submenu name=\"3\">",
+            "\t\t<template slot=\"title\">menu3</template>",
+            "\t\t<MenuItem name=\"3-1\">submenu1</MenuItem>",
+            "\t\t<MenuItem name=\"3-2\">submenu2</MenuItem>",
+            "\t</Submenu>",
+            "</Menu>"
+        ],
+        "description": "iview menu"
     },
     "iview scroll": {
         "prefix": "iScroll",

@@ -2,7 +2,7 @@
     "name": "iview-snippets",
     "displayName": "iview-snippets",
     "description": "Visual Studio Code extension for iview snippets",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "hinet",
     "license": "MIT",
     "icon": "image/iview.png",
