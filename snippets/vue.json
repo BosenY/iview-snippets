@@ -3,7 +3,9 @@
         "prefix": "vue-template",
         "body": [
             "<template>",
-            "\t$0",
+            "\t<div>",
+            "\t\t$0",
+            "\t<div>",
             "</template>",
             "",
             "<script>",

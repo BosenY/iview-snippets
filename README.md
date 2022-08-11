@@ -4,14 +4,14 @@
 
 ### snippets list
 
-|  shortcut   | Content                                  |
-| :---------: | :--------------------------------------- |
-|  vue-template      | `<template ></template><script></script><style></style>` |
-|    func     | `function(){}`                             |
-| iview-template | `a iview layout` |
+|  shortcut    | Content                                  |
+| :---------:  | :--------------------------------------- |
+| vue-template | `<template ></template><script></script><style></style>` |
+|    func      | `function(){}`                             |
+|iview-template| `a iview layout` |
 |     iRow     | `<Row></Row>`                              |
 |     iCol     | `<Col span=""></Col>`                      |
-|     iIcon     | `<Icon type="" />`                      |
+|     iIcon    | `<Icon type="" />`                        |
 |     iCard    | `<Card><p slot="title"></p></Card>`       |
 |   iButton    | `<Button type="primary"></Button>`         |
 | iButtonGroup | `<ButtonGroup><Button></Button><Button type="primary"></Button></ButtonGroup>` |
@@ -28,3 +28,7 @@
 | iRadioGroup  | `<RadioGroup v-model=""><Radio label=""></Radio><Radio label=""></Radio></RadioGroup>`  |
 |   iCheckBox   | `<Checkbox v-model=""></Checkbox>`                  |
 | iCheckBoxGroup | `<CheckBoxGroup v-model=""><Checkbox label=""></Checkbox></CheckBoxGroup>` |
+|  iDataSelect | `<DataSelect v-model="" placeholder=""></DataSelect>` |
+|   iFormItem  | `<FormItem label='' prop=''></FormItem>` |
+| iModalFooter | `<div slot='footer'><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></div>` |
+|  iFormFooter | `<FormItem><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></FormItem>` |

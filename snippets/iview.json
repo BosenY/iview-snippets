@@ -78,6 +78,13 @@
         ],
         "description": "iview datetime picker"
     },
+    "ivew dataSelect": {
+        "prefix": "iDataSelect",
+        "body": [
+            "<DateSelect v-model=\"\" placeholder=\"\"></DateSelect>"
+        ],
+        "description": "iview dataSelect"
+    },
     "ivew upload": {
         "prefix": "iUpload",
         "body": [
@@ -113,6 +120,24 @@
         ],
         "description": "iview form"
     },
+    "iview formItem": {
+        "prefix": [
+            "iFormItem"
+        ],
+        "body": [
+            "<FormItem prop='' label=''></FormItem>"
+        ],
+        "description": "iview FormItem."
+    },
+    "iview formFooter": {
+        "prefix": [
+            "iFormfooter"
+        ],
+        "body": [
+            "<FormItem><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></FormItem>"
+        ],
+        "description": "iview formFooter."
+    },
     "iview model": {
         "prefix": "iModal",
         "body": [
@@ -124,6 +149,15 @@
             "</Modal>"
         ],
         "description": "iview modal"
+    },
+    "iview modalFooter": {
+        "prefix": [
+            "iModalFooter"
+        ],
+        "body": [
+            "<div slot='footer'><Button type='primary' @click=''>ok</Button><Button @click=''>cancel</Button></div>"
+        ],
+        "description": "iview modalFooter."
     },
     "iview radio": {
         "prefix": "iRadio",
